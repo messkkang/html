@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="kangkang,kangjian">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/reg.css" type="text/css">
+</head>
+<body>
+                <table border="0" cellpadding="5px">
+                    <tr><td><label for="uname">用户名 : </label></td><td><input type="text" name="uname" id="uname" placeholder="请输入用户名"></td></tr>
+                    <tr><td><label for="password">密码 : </label></td><td><input type="text" name="password" id="password" placeholder="请输入用户名"></td></tr>
+                    <tr><td><label>性别: </label></td><td> <input type="radio" name="sex" checked>boy&nbsp;&nbsp;<input type="radio" name="sex">girl</td></tr>
+                    <tr><td><label for="birth">生日：</label></td><td><input type="date" name="birth" id="birth"></td></tr>
+                    <tr><td><label for="email">邮箱:</label></td><td><input type="email" id="email" placeholder="请输入邮箱"></td></tr>
+                    <tr><td><label>兴趣:</label></td><td><input type="checkbox" name="favorite">篮球<input type="checkbox" name="favorite">足球<input type="checkbox" name="favorite" checked>羽毛球<input type="checkbox" name="favorite">排球
+                    <tr><td valign="top"><label for="intro">自我介绍:</label></td><td><textarea name="intro" id="intro" placeholder="简单介绍一下自己吧~" rows="5" cols="30"> </textarea></td></tr>
+                    <tr><td><label for="edu">学历:</label></td><td><select name="edu" id="edu" ><option>小学</option><option>初中</option><option>高中</option><option selected>大学</option><option>研究生</option></select></td></tr>
+                </table>
+                <button  onclick="reg_in()">注册</button>
+                <script>
+                    function reg_in() {
+                        alert("注册成功")
+
+                    }
+                </script>
+
+
+    <script>
+        function log_in() {
+            alert("注册成功!")
+        }
+
+    </script>
+</body>
+</html>
